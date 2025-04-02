@@ -15,7 +15,7 @@ body
     font-style: normal;
     font-size: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-left: 15px;
+    padding-left: 95px;
 }
 
 .LoginWarn
@@ -26,12 +26,12 @@ body
     font-style: normal;
     font-size: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-left: 15px;
+    padding-left: 95px;
     padding-top: 0px;
     padding-bottom: 0%;
 }
 
-.LoginPanel
+#LoginPanel
 {
     background: rgb(32, 31, 31);
     color: transparent;
@@ -44,7 +44,7 @@ body
     border-style: none;
 }
 
-.email-class
+#email-class
 {
     background-color: white;
     align-self: center;
@@ -60,7 +60,7 @@ body
     user-select: text;
 }
 
-.password-class
+#password-class
 {
     background-color: white;
     align-self: center;
@@ -100,7 +100,7 @@ body
     outline: none;
 }
 
-.ContinueButton
+#ContinueButton
 {
     background-color: transparent;
     align-self: center;
@@ -118,7 +118,7 @@ body
     height: 37px; transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
 }
 
-.ContinueButton:hover
+#ContinueButton:hover
 {
     background-color: transparent;
     align-self: center;
